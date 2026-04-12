@@ -12,7 +12,7 @@ const useStickyHeader = (offset = 0) => {
         return(() => {
             window.removeEventListener('scroll', handleScroll);
         });
-    });
+    }, [offset]);
     return stick;
 }
 

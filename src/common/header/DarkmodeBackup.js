@@ -25,7 +25,7 @@ const Darkmode2 = () => {
         }else {
             body.classList.replace(darkTheme, lightTheme);
             e.target.classList.add(clickedClass);
-            window.localStorage.setItem("theme", "dark");
+            window.localStorage.setItem("theme", "light");
             theme = lightTheme;
         }
     }

@@ -6,7 +6,7 @@ import HeaderTwo from '../common/header/HeaderTwo';
 import TabThree from '../elements/tab/TabThree';
 import SectionTitle from "../elements/sectionTitle/SectionTitle";
 import SlipFour from "../elements/split/SlipFour";
-import SlpitOne from "../elements/split/SlpitOne";
+import SplitOne from "../elements/split/SplitOne";
 import AdvancePricingOne from "../elements/advancePricing/AdvancePricingOne";
 import FooterTwo from '../common/footer/FooterTwo';
 import Copyright from '../common/footer/Copyright';
@@ -67,7 +67,7 @@ const InternationalConsulting = () => {
                 {/* Start Elements Area  */}
                 <div className="rwt-split-area no-radius">
                     <div className="wrapper">
-                        <SlpitOne />
+                        <SplitOne />
                     </div>
                 </div>
                 {/* End Elements Area  */}

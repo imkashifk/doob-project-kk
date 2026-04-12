@@ -53,7 +53,7 @@ const BlogPropTwo = ({ column , StyleVarProp}) => {
                     <button
                         className="btn btn-default btn-icon"
                         onClick={handleLoadmorebl}
-                        disabled={noMorePost ? "disabled" : null}
+                        disabled={noMorePost}
                     >
                         {noMorePost ? (
                         "No Post Here"

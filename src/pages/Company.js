@@ -11,7 +11,7 @@ import Copyright from '../common/footer/Copyright';
 import ServiceOne from '../elements/service/ServiceOne';
 import Separator from "../elements/separator/Separator";
 import SectionTitle from "../elements/sectionTitle/SectionTitle";
-import SlpitOne from "../elements/split/SlpitOne";
+import SplitOne from "../elements/split/SplitOne";
 import PortfolioOne from "../elements/portfolio/PortfolioOne";
 import TeamFour from "../elements/team/TeamFour";
 import BrandTwo from "../elements/brand/BrandTwo";
@@ -100,7 +100,7 @@ const Company = () => {
                 </div>
                 {/* End Service Area  */}
 
-                <SlpitOne />
+                <SplitOne />
 
                 <div className="rwt-portfolio-area rn-section-gap">
                     <div className="container">

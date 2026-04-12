@@ -107,7 +107,7 @@ const PortfolioOne = ({ Column }) => {
                         <button
                             className="btn btn-default btn-large btn-icon"
                             onClick={handleLoadmore}
-                            disabled={noMorePost ? "disabled" : null}
+                            disabled={noMorePost}
                         >
                             {noMorePost ? (
                             "No Item Here"

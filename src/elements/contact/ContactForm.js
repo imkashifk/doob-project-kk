@@ -1,4 +1,4 @@
-import React , {useState} from 'react';
+import React , {useState, useEffect} from 'react';
 import emailjs from 'emailjs-com';
 
 const Result = () => {
@@ -10,29 +10,32 @@ const Result = () => {
 function ContactForm({props , formStyle}) {
     const [ result,showresult ] = useState(false);
 
+    useEffect(() => {
+        if (result) {
+            const timer = setTimeout(() => {
+                showresult(false);
+            }, 5000);
+            return () => clearTimeout(timer);
+        }
+    }, [result]);
+
     const sendEmail = (e) => {
         e.preventDefault();
         emailjs
         .sendForm(
-            'service_p4x3hv8', 
-            'template_jgfr42f', 
-            e.target, 
-            'user_jrfTH2e0Ely35ZCVFdT9S'
+            process.env.REACT_APP_EMAILJS_SERVICE_ID,
+            process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+            e.target,
+            process.env.REACT_APP_EMAILJS_USER_ID
         )
-        .then((result) => {
-            console.log(result.text);
-            }, 
-            (error) => {
-                console.log(error.text);
+        .then(() => {
+            },
+            () => {
             }
         );
         e.target.reset();
         showresult(true);
     };
-
-    setTimeout(() => {
-        showresult(false);
-    }, 5000);
 
     return (
         <form className={`${formStyle}`} action="" onSubmit={sendEmail}>

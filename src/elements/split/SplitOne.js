@@ -2,7 +2,7 @@ import React from 'react';
 import ScrollAnimation from "react-animate-on-scroll";
 
 
-const SlpitOne = () => {
+const SplitOne = () => {
     return (
             <div className="rn-splite-style">
                 <div className="split-wrapper">
@@ -58,4 +58,4 @@ const SlpitOne = () => {
     )
 }
 
-export default SlpitOne
+export default SplitOne

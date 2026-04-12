@@ -3,7 +3,7 @@ import SEO from "../../common/SEO";
 import Layout from "../../common/Layout";
 import BreadcrumbOne from "../breadcrumb/BreadcrumbOne";
 import SectionTitle from "../sectionTitle/SectionTitle";
-import SlpitOne from "./SlpitOne";
+import SplitOne from "./SplitOne";
 import SlipTwo from "./SlipTwo";
 import SlipThree from "./SlipThree";
 import SlipFour from "./SlipFour";
@@ -36,7 +36,7 @@ const Split = () => {
                                     />
                                 </div>
                             </div>
-                            <SlpitOne />
+                            <SplitOne />
                         </div>
                     </div>
                     {/* End Elements Area  */}
