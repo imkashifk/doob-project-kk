@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/doob-project-kk/static/css/main.6bf1f4a3.chunk.css",
-    "main.js": "/doob-project-kk/static/js/main.5633f5c6.chunk.js",
-    "main.js.map": "/doob-project-kk/static/js/main.5633f5c6.chunk.js.map",
+    "main.js": "/doob-project-kk/static/js/main.5868847c.chunk.js",
+    "main.js.map": "/doob-project-kk/static/js/main.5868847c.chunk.js.map",
     "runtime-main.js": "/doob-project-kk/static/js/runtime-main.2e5f0b65.js",
     "runtime-main.js.map": "/doob-project-kk/static/js/runtime-main.2e5f0b65.js.map",
     "static/css/2.f9211425.chunk.css": "/doob-project-kk/static/css/2.f9211425.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.f9211425.chunk.css",
     "static/js/2.9e20dd20.chunk.js",
     "static/css/main.6bf1f4a3.chunk.css",
-    "static/js/main.5633f5c6.chunk.js"
+    "static/js/main.5868847c.chunk.js"
   ]
 }
