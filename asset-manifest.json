@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/doob-project-kk/static/css/main.6bf1f4a3.chunk.css",
+    "main.js": "/doob-project-kk/static/js/main.5633f5c6.chunk.js",
+    "main.js.map": "/doob-project-kk/static/js/main.5633f5c6.chunk.js.map",
+    "runtime-main.js": "/doob-project-kk/static/js/runtime-main.2e5f0b65.js",
+    "runtime-main.js.map": "/doob-project-kk/static/js/runtime-main.2e5f0b65.js.map",
+    "static/css/2.f9211425.chunk.css": "/doob-project-kk/static/css/2.f9211425.chunk.css",
+    "static/js/2.9e20dd20.chunk.js": "/doob-project-kk/static/js/2.9e20dd20.chunk.js",
+    "static/js/2.9e20dd20.chunk.js.map": "/doob-project-kk/static/js/2.9e20dd20.chunk.js.map",
+    "static/js/3.b95a4125.chunk.js": "/doob-project-kk/static/js/3.b95a4125.chunk.js",
+    "static/js/3.b95a4125.chunk.js.map": "/doob-project-kk/static/js/3.b95a4125.chunk.js.map",
+    "index.html": "/doob-project-kk/index.html",
+    "static/css/2.f9211425.chunk.css.map": "/doob-project-kk/static/css/2.f9211425.chunk.css.map",
+    "static/css/main.6bf1f4a3.chunk.css.map": "/doob-project-kk/static/css/main.6bf1f4a3.chunk.css.map",
+    "static/js/2.9e20dd20.chunk.js.LICENSE.txt": "/doob-project-kk/static/js/2.9e20dd20.chunk.js.LICENSE.txt",
+    "static/media/style.scss": "/doob-project-kk/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2e5f0b65.js",
+    "static/css/2.f9211425.chunk.css",
+    "static/js/2.9e20dd20.chunk.js",
+    "static/css/main.6bf1f4a3.chunk.css",
+    "static/js/main.5633f5c6.chunk.js"
+  ]
+}
